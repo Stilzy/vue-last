@@ -21,7 +21,7 @@
         <DrawerHeader/>
 
 
-        <InfoBlock v-if="!totalPrice" title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." image-url="/package-icon.png"/>
+        <InfoBlock v-if="!totalPrice" title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." image-url="./package-icon.png"/>
 
         <CartItemList v-if="totalPrice"/>
 
